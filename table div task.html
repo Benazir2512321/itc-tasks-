@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table-Div Task</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .left {
+            background-color: #f7c7c7;
+        }
+
+        .center {
+            background-color: #c7f7c7;
+        }
+
+        .right {
+            background-color: #c7c7f7;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Introduction</h1>
+        <p>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="column left">
+            <h2>Left column</h2>
+            <p>These are just some words to fill a div element, so that its layout becomes real and not abstract
+                anymore.</p>
+        </div>
+
+        <div class="column center">
+            <h2>Center column</h2>
+            <p>These are just some words to fill a div element, so that its layout becomes real and not abstract
+                anymore.</p>
+        </div>
+
+        <div class="column right">
+            <h2>Right column</h2>
+            <p>These are just some words to fill a div element, so that its layout becomes real and not abstract
+                anymore.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
